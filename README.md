@@ -1,13 +1,13 @@
 🧮 Tax-Loss Harvesting - React (frontend-only)
 This repository contains a 100 % front-end implementation of a crypto tax-loss-harvesting tool.
-Everything (holdings, prices, gains / losses) is hard-coded in state, so you can clone, install and run without any back-end or API keys.
+Everything (holdings, prices, gains/losses) is hard-coded in state, so you can clone, install and run without any back-end or API keys.
 
 Desktop layout
 
 1 . Features
 Capital-gains dashboard
 • Pre-harvesting vs. after-harvesting cards
-• Totals update instantly when you tick / untick rows
+• Totals update instantly when you tick/untick rows
 
 Scrollable, Figma-accurate holdings table
 • Sticky header inside a rounded card
@@ -29,6 +29,7 @@ Framework	React 18 (Create-Vite template)
 Styling	Plain CSS modules (no external UI kit)
 Icons / Logos	CryptoLogos CDN
 State	React Hooks (useState, useMemo) only
+
 3 . Project structure
 TEXT
 
@@ -43,6 +44,7 @@ tax-loss-harvesting/
 │  ├─ App.css
 │  └─ main.jsx
 └─ README.md            ← you are here
+
 4 . Getting started
 BASH
 
@@ -55,11 +57,14 @@ For a production bundle:
 BASH
 
 npm run build   # outputs to /dist
+
 5 . Available scripts
 Script	What it does
 dev	Starts Vite with hot-reload
 build	Generates an optimised production bundle
 preview	Serves the bundle locally for a final check
+
+
 6 . Data flow (quick tour)
 
 App.jsx
