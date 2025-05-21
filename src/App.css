@@ -1,0 +1,230 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #15132b; /* match your app bg! */
+}
+.taxloss-app {
+  min-height: 100vh;
+  background: #15132b;
+  color: #fff;
+  font-family: Inter, sans-serif;
+}
+
+.taxloss-header {
+  background: #181446;
+  padding: 30px 40px 12px 40px;
+  display: flex;
+  align-items: center;
+}
+.taxloss-title {
+  font-weight: 700;
+  font-size: 24px;
+  flex: 1;
+  color: #fff;
+}
+.taxloss-header-link {
+  color: #a3adff;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.taxloss-disclaimer-box {
+  margin: 15px auto 0 auto;
+  max-width: 1200px;
+  border-radius: 12px;
+  background: #181959;
+  box-shadow: 0 2px 0 0 #24243e;
+  padding: 0;
+}
+.taxloss-disclaimer-trigger {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 18px;
+  color: #fff;
+  font-weight: 600;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+.taxloss-disclaimer-info {
+  font-weight: 500;
+  color: #a3adff;
+}
+.taxloss-disclaimer {
+  margin: 0 0 10px 24px;
+  padding: 0;
+  color: #b1b9e3;
+  font-size: 15px;
+  list-style-type: disc;
+}
+
+.taxloss-summary-row {
+  display: flex;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 30px auto;
+  flex-wrap: wrap;
+}
+.taxloss-card {
+  flex: 1 1 340px;
+  min-width: 340px;
+  background: #18183e;
+  border-radius: 14px;
+  padding: 28px 28px 12px 28px;
+  color: #fff;
+  box-shadow: 0 1px 10px #18183e20;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.taxloss-card-gradient {
+  background: linear-gradient(99deg, #4605d7 10%, #62b5f7);
+}
+.taxloss-label {
+  font-size: 13px;
+  color: #a9afce;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.taxloss-card-title {
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 9px;
+}
+.taxloss-card-cols {
+  display: flex;
+  gap: 36px;
+}
+.taxloss-card-footer {
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 17px;
+  color: #fff;
+}
+.taxloss-bignum {
+  font-weight: 700;
+  font-size: 26px;
+  color: #fff;
+  margin-left: 4px;
+}
+.taxloss-bignum-blue {
+  color: #57d2ff;
+}
+.taxloss-savemsg {
+  color: #ffd300;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.taxloss-table-wrap {
+  margin: 20px auto 0 auto;
+  background: #18183e;
+  max-width: 1200px;
+  border-radius: 14px;
+  padding: 20px 24px 30px 24px;
+  box-shadow: 0 1.5px 8px #10103050;
+  overflow-x: auto;
+}
+.taxloss-table-rowhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.taxloss-table-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  letter-spacing: 0.3px;
+}
+.taxloss-viewall {
+  font-size: 14px;
+  color: #a3adff;
+  padding-right: 10px;
+}
+.taxloss-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  margin-top: 14px;
+}
+.taxloss-table th {
+  background: #222040;
+  color: #bad1ff;
+  font-size: 14px;
+  padding: 10px 8px;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+}
+.taxloss-table th.left {
+  text-align: left;
+}
+.taxloss-tr {
+  background: #19193e;
+}
+.taxloss-tr-selected {
+  background: #242350;
+}
+.taxloss-table td {
+  padding: 12px 8px;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  border-top: 0;
+  border-bottom: 1px solid rgba(43,47,67,0.15);
+}
+.taxloss-row-asset {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.taxloss-row-logo {
+  width: 28px;
+  height: 28px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.taxloss-row-assetname {
+  font-weight: 500;
+}
+.taxloss-row-assetsym {
+  color: #7978a8;
+  font-size: 12px;
+  margin-left: 6px;
+}
+.taxloss-holdingmain {
+  font-weight: 500;
+  font-size: 16px;
+}
+.taxloss-holdingrate {
+  font-size: 12px;
+  color: #7978a8;
+  margin-top: 1px;
+}
+.taxloss-qtycell {
+  font-size: 13px;
+  color: #bbb;
+  letter-spacing: 0.2px;
+  margin-top: 1px;
+}
+.taxloss-short-green {
+  color: #12ffb3;
+  font-weight: 500;
+  font-size: 15px;
+}
+.taxloss-short-red {
+  color: #ff5454;
+  font-weight: 500;
+  font-size: 15px;
+}
+.logo{
+  display: flex;
+  flex-direction: column;
+}
